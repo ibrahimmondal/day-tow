@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function Accounts() {
   return (
     <section>
@@ -19,7 +19,7 @@ export default function Accounts() {
           <p className="text-gray-500 mb-6 text-center max-w-[300px] py-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-    <img src="/image/card (9).png" alt="card" className="pb-10"/>
+    <Image src={"/image/card (9).png"} alt="card" className="pb-10" width={700} height={700}/>
 
           <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-teal-500 transition">
             Get started
@@ -34,7 +34,7 @@ export default function Accounts() {
           <p className="text-gray-500 mb-6 text-center max-w-[300px] py-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-    <img src="/image/card (10).png" alt="card" className="pb-10"/>
+    <Image src="/image/card (10).png" alt="card" width={700} height={700} className="pb-10"/>
 
           <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-teal-500 transition">
             Get started
@@ -49,7 +49,7 @@ export default function Accounts() {
           <p className="text-gray-500 mb-6 text-center max-w-[300px] py-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-    <img src="/image/card (11).png" alt="card" className="pb-10"/>
+    <Image src="/image/card (11).png" alt="card" width={700} height={700} className="pb-10"/>
 
           <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-teal-500 transition">
             Get started
