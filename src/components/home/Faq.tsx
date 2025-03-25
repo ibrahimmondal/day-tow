@@ -28,7 +28,7 @@ const faqs = [
 export default function Faq() {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleFaq = (index) => {
+  const toggleFaq = (index ) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 

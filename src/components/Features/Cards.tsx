@@ -9,21 +9,21 @@ export default function Cards() {
     your cards</h1>
     <p className="max-w-[530px] text-[18px] pb-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     <div className="flex gap-2 py-5">
-        <spam>
+        <span>
     <i className="fa-solid fa-check bg-[#E8F2EE] text-teal-500 p-1.5 rounded-3xl"></i>
-        </spam>
+        </span>
     <h3 className="">Malesuada Ipsum</h3>
     </div>
     <div className="flex gap-2 pb-4">
-        <spam>
+        <span>
     <i className="fa-solid fa-check bg-[#E8F2EE] text-teal-500 p-1.5 rounded-3xl"></i>
-        </spam>
+        </span>
     <h3>Vestibulum</h3>
     </div>
     <div className="flex gap-2">
-        <spam>
+        <span>
     <i className="fa-solid fa-check bg-[#E8F2EE] text-teal-500 p-1.5 rounded-3xl"></i>
-        </spam>
+        </span>
     <h3>Parturient Lorem</h3>
     </div>
   </div>
