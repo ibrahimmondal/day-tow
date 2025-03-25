@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function Notifications() {
     return (
         <section className='pb-[150px] pt-[30px]'>
@@ -33,7 +33,7 @@ export default function Notifications() {
                             <div className="bg-[#F8F8F8] py-4 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/app-icon.png" alt="Google Pay" />
+                                        <Image src={"/image/app-icon.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Banko.</h2>
                                         <p className="font-medium text-[16px]">You payment of 49€ has been processed!</p>
@@ -48,7 +48,7 @@ export default function Notifications() {
                             <div className="bg-[#F8F8F8] py-4 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/app-icon.png" alt="Google Pay" />
+                                        <Image src={"/image/app-icon.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Banko.</h2>
                                         <p className="font-medium text-[16px]">You payment of 49€ has been processed!</p>
@@ -63,7 +63,7 @@ export default function Notifications() {
                             <div className="bg-[#F8F8F8] py-4 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/app-icon.png" alt="Google Pay" />
+                                        <Image src={"/image/app-icon.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Banko.</h2>
                                         <p className="font-medium text-[16px]">You payment of 49€ has been processed!</p>
@@ -78,7 +78,7 @@ export default function Notifications() {
                             <div className="bg-[#F8F8F8] py-4 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/app-icon.png" alt="Google Pay" />
+                                        <Image src={"/image/app-icon.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Banko.</h2>
                                         <p className="font-medium text-[16px]">You payment of 49€ has been processed!</p>
@@ -93,7 +93,7 @@ export default function Notifications() {
                             <div className="bg-[#F8F8F8] py-4 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/app-icon.png" alt="Google Pay" />
+                                        <Image src={"/image/app-icon.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Banko.</h2>
                                         <p className="font-medium text-[16px]">You payment of 49€ has been processed!</p>

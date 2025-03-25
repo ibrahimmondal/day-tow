@@ -2,6 +2,20 @@ import App from "next/image";
 import Card5 from "next/image";
 import Card6 from "next/image";
 import Card7 from "next/image";
+import Vector from "next/image";
+import Vector2 from "next/image";
+import Vector3 from "next/image";
+import Vector4 from "next/image";
+import Vector5 from "next/image";
+import Vector6 from "next/image";
+import Vector7 from "next/image";
+import Vector8 from "next/image";
+import Vector9 from "next/image";
+import Laptop from "next/image";
+import Laptop2 from "next/image";
+import Laptop3 from "next/image";
+import Laptop4 from "next/image";
+import Laptop5 from "next/image";
 export default function Bank() {
   return (
     <section className="bg-white py-20">
@@ -75,59 +89,73 @@ export default function Bank() {
             <div>
               <div className="grid grid-cols-3 gap-4 justify-items-center">
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img src="/image/Vector.png" alt="Webflow" className="h-6" />
+                  <Laptop5 src={"/image/Vector.png"} alt="Webflow" className="h-6" width={145}
+                    height={100}/>
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img
-                    src="/image/Shopify_logo_2018 1.png"
+                  <Vector
+                    src={"/image/Shopify_logo_2018 1.png"}
                     alt="Shopify"
                     className="h-6"
+                    width={145}
+                    height={100}
                   />
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img
-                    src="/image/Zapier_logo 1.png"
+                  <Vector2
+                    src={"/image/Zapier_logo 1.png"}
                     alt="Zapier"
                     className="h-6"
+                    width={145}
+                    height={100}
                   />
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img src="/image/PayPal 1.png" alt="PayPal" className="h-6" />
+                  <Vector3 src={"/image/PayPal 1.png"} alt="PayPal" className="h-6" width={145}
+                    height={100} />
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img
-                    src="/image/Mastercard-logo 1.png"
+                  <Vector4
+                    src={"/image/Mastercard-logo 1.png"}
                     alt="Mastercard"
                     className="h-6"
+                    width={145}
+                    height={100}
                   />
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img src="/image/Visa_2021 1.png" alt="Visa" className="h-6" />
+                  <Vector2 src={"/image/Visa_2021 1.png"} alt="Visa" className="h-6" width={145}
+                    height={100}/>
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img
-                    src="/image/Apple_Pay_logo 1.png"
+                  <Vector6
+                    src={"/image/Apple_Pay_logo 1.png"}
                     alt="Google Pay"
                     className="h-6"
+                    width={145}
+                    height={100}
                   />
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img
-                    src="/image/Amazon_Pay_logo 1.png"
+                  <Vector7
+                    src={"/image/Amazon_Pay_logo 1.png"}
                     alt="Amazon Pay"
                     className="h-6"
+                    width={145}
+                    height={100}
                   />
                 </div>
 
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center justify-center">
-                  <img src="/image/Vector.png" alt="Bitcoin" className="h-6" />
+                  <Vector2 src={"/image/Vector.png"} alt="Bitcoin" className="h-6" width={145}
+                    height={100}/>
                 </div>
               </div>
             </div>
@@ -144,10 +172,12 @@ export default function Bank() {
             <div>
               <div className="grid grid-cols-2 gap-2 justify-items-center">
                 <div>
-                  <img
-                    src="/image/image (2).png"
+                  <Laptop
+                    src={"/image/image (2).png"}
                     alt="Amazon Pay"
                     className="pl-10"
+                    width={145}
+                    height={100}
                   />
                   <div className="text-center pt-8 pl-5">
                     <h2>New Laptop</h2>
@@ -155,10 +185,12 @@ export default function Bank() {
                   </div>
                 </div>
                 <div>
-                  <img
+                  <Laptop4
                     src="/image/image (1).png"
                     alt="Amazon Pay"
                     className="pl-10"
+                    width={145}
+                    height={100}
                   />
                   <div className=" pt-5">
                     <h2>Dream bike</h2>
@@ -183,7 +215,8 @@ export default function Bank() {
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center  mb-5">
                   <div className="flex gap-8 items-center">
                     <div>
-                      <img src="/image/badge.png" alt="Google Pay" />
+                      <Laptop2 src="/image/badge.png" alt="Google Pay" width={145}
+                    height={100} />
                     </div>
                     <div className="text-start">
                       <h2>Apple</h2>
@@ -197,7 +230,8 @@ export default function Bank() {
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center  mb-5">
                   <div className="flex gap-8 items-center">
                     <div>
-                      <img src="/image/badge (1).png" alt="Google Pay" />
+                      <Laptop3 src="/image/badge (1).png" alt="Google Pay" width={145}
+                    height={100}/>
                     </div>
                     <div className="text-start">
                       <h2>Amazon</h2>
@@ -211,7 +245,8 @@ export default function Bank() {
                 <div className="bg-white px-4 py-2 rounded shadow flex items-center  mb-5">
                   <div className="flex gap-8 items-center">
                     <div>
-                      <img src="/image/badge (2).png" alt="Google Pay" />
+                      <Laptop2 src="/image/badge (2).png" alt="Google Pay" width={145}
+                    height={100}/>
                     </div>
                     <div className="text-start">
                       <h2>Google</h2>

@@ -1,5 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Image1 from 'next/image'
+import Image2 from 'next/image'
+import Image3 from 'next/image'
+import Image4 from 'next/image'
+import Image5 from 'next/image'
+import Image6 from 'next/image'
 export default function Money_instantly() {
     return (
         <section className='bg-[#E8F2EE] pt-[128px]'>
@@ -32,7 +38,8 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image src={"/image/badge.png"} 
+                                        width={50} height={50} alt="Google Pay" />
                                     <div className="text-start">
                                         <h2>Apple</h2>
                                         <p className="text-[#1A191E80]">Shopping</p>
@@ -49,7 +56,7 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image1 src={"/image/badge.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Amazon</h2>
                                         <p className="text-[#1A191E80]">Electronics</p>
@@ -66,7 +73,8 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image2 src={"/image/badge.png" }alt="Google Pay" width={50} height={50} />
+                                        
                                     <div className="text-start">
                                         <h2>Twitter</h2>
                                         <p className="text-[#1A191E80]">Ads</p>
@@ -83,7 +91,7 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image3 src={"/image/badge.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Microsoft</h2>
                                         <p className="text-[#1A191E80]">Office Suite</p>
@@ -100,7 +108,7 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image4 src={"/image/badge.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Dropbox</h2>
                                         <p className="text-[#1A191E80]">Cloud</p>
@@ -117,7 +125,7 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image5 src={"/image/badge.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Paypal</h2>
                                         <p className="text-[#1A191E80]">Shopping</p>
@@ -134,7 +142,7 @@ export default function Money_instantly() {
                             <div className="bg-white py-2 px-4 rounded shadow mb-5 ">
                                 <div className="flex items-center justify-between">
                                     <div className='flex gap-[20px]'>
-                                        <img src="/image/badge.png" alt="Google Pay" />
+                                        <Image6 src={"/image/badge.png"} alt="Google Pay" width={50} height={50}/>
                                     <div className="text-start">
                                         <h2>Apple</h2>
                                         <p className="text-[#1A191E80]">Shopping</p>

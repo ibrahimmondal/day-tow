@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function One_app() {
     return (
       <section>
@@ -30,12 +30,12 @@ export default function One_app() {
                 <span>100% mobile banking</span>
               </div>
               <div className="py-5">
-              <img src="/image/grid (3).png" alt="oneapp" className="w-full"/>
+              <Image src={"/image/grid (3).png"} alt="oneapp" width={700} height={700} className="w-full"/>
               </div>
             </div>
      </div>
    <div className="md:pr-20 mx-10">
-          <img src="/image/app (7).png" alt="oneapp" className="w-full mt-12" height="700"/>
+          <Image src={"/image/app (7).png"} alt="oneapp" className="w-full mt-12" width={700} height={700}/>
    </div>
      </div>
          
