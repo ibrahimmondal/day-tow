@@ -6,11 +6,11 @@ import Vector from "next/image";
 import Vector2 from "next/image";
 import Vector3 from "next/image";
 import Vector4 from "next/image";
-import Vector5 from "next/image";
+
 import Vector6 from "next/image";
 import Vector7 from "next/image";
-import Vector8 from "next/image";
-import Vector9 from "next/image";
+
+
 import Laptop from "next/image";
 import Laptop2 from "next/image";
 import Laptop3 from "next/image";

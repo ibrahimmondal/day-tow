@@ -1,9 +1,6 @@
 import React from 'react'
 import Laptop from "next/image"
-import Bike from "next/image"
-import Holiday from "next/image"
-import Camera from "next/image"
-import Plass from "next/image"
+
 export default function Saving_accounts() {
   return (
     <section className='containers py-[160px]'>
