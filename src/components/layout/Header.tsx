@@ -31,12 +31,12 @@ export default function Header() {
             <Link href="/features" className="dark:--background hover:text-[#5BB5A2] font-medium Inter">Features</Link>
             
             <div className="relative group">
-              <a href="#" className="flex items-center dark:--background hover:[#5BB5A2] font-medium">
+              <Link href="/compare" className="flex items-center hover:text-[#5BB5A2] font-medium">
                 Compare
-                <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </a>
+                </svg> */}
+              </Link>
               {/* Optional: Dropdown menu */}
             </div>
             <Link href="/about" className="dark:--background hover:text-[#5BB5A2] font-medium">Support</Link>

@@ -13,7 +13,7 @@ export default function Accounts() {
         <div className="bg-white rounded-lg  flex flex-col items-center p-6 borde">
           <div className="flex items-center space-x-2 mb-4">
             <h3 className="text-lg font-bold">Basic</h3>
-            <span className="text-xs text-teal-500 bg-[#E8F2EE] px-2 py-0.5 rounded-full">Popular</span>
+            <span className="text-xs text-[#5BB5A2] bg-[#E8F2EE] px-2 py-0.5 rounded-full">Popular</span>
           </div>
           <h2 className="text-4xl font-bold mb-2">Free</h2>
           <p className="text-gray-500 mb-6 text-center max-w-[300px] py-5">
@@ -21,7 +21,7 @@ export default function Accounts() {
           </p>
     <Image src={"/image/card (9).png"} alt="card" className="pb-10" width={700} height={700}/>
 
-          <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-teal-500 transition">
+          <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-[#5BB5A2] transition">
             Get started
           </button>
         </div>
@@ -36,7 +36,7 @@ export default function Accounts() {
           </p>
     <Image src="/image/card (10).png" alt="card" width={700} height={700} className="pb-10"/>
 
-          <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-teal-500 transition">
+          <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-[#5BB5A2] transition">
             Get started
           </button>
         </div>
@@ -51,7 +51,7 @@ export default function Accounts() {
           </p>
     <Image src="/image/card (11).png" alt="card" width={700} height={700} className="pb-10"/>
 
-          <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-teal-500 transition">
+          <button className="w-full bg-[#5BB5A2] text-white py-2 rounded hover:bg-[#5BB5A2] transition">
             Get started
           </button>
         </div>
